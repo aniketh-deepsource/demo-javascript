@@ -5,5 +5,11 @@ export const Text = () => (
     <p>
         Test
         <a href="/about">About Us</a>
+         <img
+            src="https://example.com/test"
+            alt="Landscape picture"
+            width={500}
+            height={500}
+          />
     </p>
 )
