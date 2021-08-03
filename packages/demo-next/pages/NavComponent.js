@@ -2,7 +2,7 @@ import Link from 'next/link'
 import styled from 'styled-components'
 import { Head } from "next/document";
 
-<!-- next-link-passhref -->
+/** next-link-passhref */
 
 const RedLink = styled.a`
   color: red;
@@ -17,7 +17,7 @@ function NavLink({ href, name }) {
 }
 export default NavLink
 
-<!-- next-no-css-tags -->
+/** next-no-css-tags */
 export class NavBar extends Head {
   render() {
     return (
@@ -28,3 +28,5 @@ export class NavBar extends Head {
     );
   }
 }
+
+
