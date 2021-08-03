@@ -40,7 +40,6 @@ export class NavMenu {
   }
 }
 
-
 /** no-unwanted-polyfillio */
 export class NavCard extends Head {
   render() {
