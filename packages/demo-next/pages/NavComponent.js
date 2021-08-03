@@ -30,3 +30,27 @@ export class NavBar extends Head {
 }
 
 
+
+/** no-title-in-document-head */
+export class NavMenu {
+  render() {
+    return (
+      <Head>
+        <title>My page title</title>
+      </Head>
+    );
+  }
+}
+
+
+/** no-unwanted-polyfillio */
+export class NavCard extends Head {
+  render() {
+    return (
+      <div>
+        <h1>Hello title</h1>
+        <script src="https://polyfill.io/v3/polyfill.min.js?features=WeakSet%2CPromise%2CPromise.prototype.finally%2Ces2015%2Ces5%2Ces6"></script>
+      </div>
+    );
+  }
+}
