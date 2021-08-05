@@ -9,7 +9,7 @@ export default {
   /** require-head-as-head */
   head: {
     title: "My page"
-  }
+  },
 
   /** no-globals-in-created */
   created() {
