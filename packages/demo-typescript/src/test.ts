@@ -7,3 +7,4 @@ async (memberID, memberPrayerMessage) => {
            .doc(memberID);
   }catch(d){}
 }
+// checking
