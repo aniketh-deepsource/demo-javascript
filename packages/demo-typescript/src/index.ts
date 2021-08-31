@@ -18,3 +18,6 @@ class SampleClass {
     }
   }
   
+
+const foo = arg => arg;
+export default foo;
