@@ -19,3 +19,8 @@ export const roles: Array<any> = ['admin', 'manager'];
 export class MockUser {
   constructor(readonly name: string) {}
 }
+
+
+export function fn() {
+  return function () {};
+}
