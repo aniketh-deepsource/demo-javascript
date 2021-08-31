@@ -18,9 +18,9 @@ class SampleClass {
   }
 }
 
-    class Foo {
-        bool = function (arg) {
-          return arg;
-        };
-    }
-  export default [Foo];
+class Foo {
+  bool = function (arg) {
+    return arg;
+  };
+}
+export default [Foo];
