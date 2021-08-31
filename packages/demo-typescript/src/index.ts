@@ -18,5 +18,9 @@ class SampleClass {
   }
 }
 
-const foo = (arg) => arg;
-export default foo;
+    class Foo {
+        bool = function (arg) {
+          return arg;
+        };
+    }
+  export default [Foo];
