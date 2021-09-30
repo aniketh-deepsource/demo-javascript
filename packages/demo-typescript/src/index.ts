@@ -18,3 +18,15 @@ class SampleClass {
     }
   }
   
+
+
+export class Foo{
+
+public getSchemas() {
+  // some logic here beforehand resulting in items and docs which are both string[]
+
+  const schemas = Array.from(new Set(items));
+  const docTypeBids = Array.from(new Set(docs));
+  return {schemas, docTypeBids};
+}
+}
