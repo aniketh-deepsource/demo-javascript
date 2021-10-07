@@ -1,0 +1,14 @@
+{
+  "parserOptions": {
+    "ecmaVersion": 2020,
+    "ecmaFeatures": { "jsx": true },
+    "sourceType": "module"
+  },
+  "plugins": ["react"],
+  "rules": {
+    "react/function-component-definition": [
+      "error",
+      { "namedComponents": "arrow-function" }
+    ]
+  }
+}
