@@ -12,3 +12,10 @@ Footer.propTypes = {
 };
 
 export default Footer;
+
+const TableName = ({ name }) => (
+  <S.TruncatedDiv width={160} title={name.length > 18 ? name : ''}> 
+    <FaTable />
+    <span style={{ marginLeft: '8px' }}>{name}</span>
+  </S.TruncatedDiv>
+);
